@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica3</title>
+</head>
+<body>
+    <h1>Formulario 1</h1>
+    <form action="Link" method="post" target="_blank">
+        <div>
+            <label for="nombre">Nombre: </label>
+            <input type="text" size="30" name="nombre" id="nombre">
+        </div>
+        <div>
+            <label for="mail">Correo: </label>
+            <input type="email" size="30" name="mail" id="mail">
+        </div>
+        <div> 
+            <label for="dni">DNI: </label>
+            <input type="number" name="dni" min="999999" max="99999999" id="dni">
+        </div>
+        <div>
+            <label for="cv">CV: </label>
+            <textarea name="cv" id="cv" rows="10" cols="50"></textarea>
+        </div>
+    
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
