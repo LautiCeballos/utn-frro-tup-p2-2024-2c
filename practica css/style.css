@@ -1,0 +1,51 @@
+/* @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap'); */
+
+*{
+    font-family: sans-serif;
+    background-color: rgb(245, 245, 245);
+    
+}
+
+h1{
+    font-size: 24px;
+    color: #242424;
+    font-weight: 900;
+
+}
+h2{
+    font-size: 20px;
+    color: #606060;
+    font-weight: 800;
+}
+p{
+    font-size: 14px;
+    margin-top: 30;
+    margin-bottom: 30;
+}
+li{
+    font-family: monospace;
+    font-size: 18px;
+    margin: 10px;
+}
+a{
+    font-weight: bold;
+}
+li a{
+    color: orange;
+    text-decoration: underline;
+}
+ul{
+    margin-left: 100px;
+    padding: 20px;
+    border: 2px,solid,blue;
+    width: 40%;
+    list-style-type: none;
+
+}
+ul li:hover{
+    background-color: rgba(0, 0, 0, 0.1) !important;
+
+}
+.linkVerde a{
+    color: greenyellow;
+}
