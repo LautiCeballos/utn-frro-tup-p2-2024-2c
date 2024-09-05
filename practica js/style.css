@@ -1,0 +1,8 @@
+body{
+    background-color: aquamarine;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center !important;
+    border: 2px solid rgb(165, 81, 81);
+    width: 200px;
+}
