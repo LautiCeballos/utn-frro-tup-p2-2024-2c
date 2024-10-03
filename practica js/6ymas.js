@@ -40,4 +40,26 @@ if (num % 2 == 0){
 } */
 
 //9
+// Escribe un programa que pida una frase y escriba cuantas veces aparece la
+// letra a
 
+// var frase = prompt("Ingrese una frase:");
+// let contador = 0;
+// for (let i = 0; i < frase.length; i++) {
+//     if (frase[i].toLowerCase() === 'a' ){
+//         contador++;
+//     }
+// }
+
+// document.write("La frase : '",frase,"' contiene ",contador, " veces la letra 'A'");
+
+// 10. Escribe un programa que pida una frase y escriba las vocales que aparecen
+
+var frase = prompt("Ingrese una frase:");
+ let vocalesPresentes;
+ for (let i = 0; i < frase.length; i++) {
+     if (frase[i].toLowerCase() === 'a' || frase[i].toLowerCase() === 'e' || frase[i].toLowerCase() === 'i' || frase[i].toLowerCase() === 'o' || frase[i].toLowerCase() === 'u'){
+         if()
+         vocalesPresentes.frase[i] + " ";   }
+  }
+  document.write("La frase : '",frase,"' contiene las vocales ",vocalesPresentes)
