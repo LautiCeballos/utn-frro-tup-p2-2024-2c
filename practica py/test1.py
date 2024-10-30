@@ -65,19 +65,31 @@ o Escribe un programa en el que declares una variable para almacenar tu
 nombre, otra para tu edad y otra para la calificación de tu última prueba. 
 Luego muestra un mensaje que diga: "Mi nombre es X, tengo X años y 
 mi última calificación fue X." 
-"""
+
 
 nombre = input("Ingrese su nombre: ")
 edad = input("Ingrese su edad: ")
 nota = input("Ingrese su ultima nota: ")
 print(f"Hola mi nombre es {nombre}, tengo {edad} anios y mi ultima nota fue {nota}")
-"""
+
 Controladores de flujo 
 1. Condicionales: sentencia if 
 o Crea un programa que solicite la edad de una persona e indique si es 
 mayor de edad (18 años o más) o no. 
 o Variante: Modifica el programa para que además indique si es un 
 adolescente (entre 13 y 17 años). 
+"""
+edad = int(input("Ingrese su edad: "))
+
+if edad >= 18:
+    print("Usted es mayor")
+elif edad > 13 and edad < 18:
+    print("Usted es menor de edad (adolescente)")
+else:
+    print("Usted es menor de edad (no-adolescente)")
+
+
+"""
 2. Condicionales anidadas 
 o Escribe un programa que le pida al usuario ingresar su nota en una 
 prueba (un número entre 0 y 10). El programa debe mostrar: 
